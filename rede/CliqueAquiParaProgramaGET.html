@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Programa CGi com GET</title>
+    </head>
+    <body>
+        <h3>Pagina para envio de dados via GET</h3>
+        <h5>Usado para envio de dados COM exibição de seus dados na URL</h5>
+        <form action="http://127.0.0.1:8000/app.py" method="GET">
+
+            Usuario: <input type="text" name="usuario" />
+
+            <br />
+
+            Endereço de e-mail: <input type="email" name="enderecoDeEmail" />
+
+            <input type="submit" value="Fazer requisição GET para o Python" />
+
+        </form>
+    </body>
+</html>
