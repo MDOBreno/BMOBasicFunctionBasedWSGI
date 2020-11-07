@@ -12,9 +12,9 @@ def web_app(environment, response):
     form = cgi.FieldStorage()
     usuario = "Ola" #form["usuario"].value
     enderecoDeEmail = "Mundo" #form["enderecoDeEmail"].value
-    resposta = ("<strong>Seu usuário é: " + usuario + "</strong>"
+    resposta = ("<strong>Seu usuario e: " + usuario + "</strong>"
                 "<br />"
-                "<strong>Seu e-mail é: " + enderecoDeEmail + "</strong>")
+                "<strong>Seu e-mail e: " + enderecoDeEmail + "</strong>")
 
     return [resposta.encode()]
 
